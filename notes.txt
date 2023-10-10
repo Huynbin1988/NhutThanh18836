@@ -1,0 +1,3 @@
+https://www.w3schools.com/colors/colors_gradient.asp            //color refer
+
+https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp    //grid control to learn
