@@ -2,17 +2,15 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com -->
-  <title>Bootstrap Theme Company Page</title>
+  <title>Nguyen Nhut Thanh</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="loading.js"></script>  
-  <link rel="stylesheet" href="loading.css" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediastyle.css" />
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
@@ -26,59 +24,88 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-user"></span>&nbsp;Nguyen Nhut Thanh</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#businesshour">Have to know before start</a></li>
+              <li><a href="#security">Cybersecurity</a></li>
+              <li><a href="#breach">Data Breach</a></li>
+               <li><a href="#myCarousel">Data Communication</a></li>
+               <li><a href="#businesscase">BUSINESS SCENARIO</a></li>
+              <li><a href="#about">About</a></li>
+              <!-- <li><a href="#staff">Our Staffs</a></li> -->
+            </ul>
+        </li>        
+        <li><a href="#services">HARDWARE AND SOFTWARE</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#document">DOCUMENT</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron text-center">
-  <h1>PM Demo by 12345 T42023</h1> 
-  <p>We specialize in web design and create dynamic web project</p> 
 
-  <div class="form-group row">
-    <div class="col-xs-3"> 
-    </div>
-    <div class="col-xs-6">
-        <form name="submit-to-google-sheet">
-            <div class="input-group">
-              <input type="email" name="Email" class="form-control" size="50" placeholder="Email Address" required>
-              <div class="input-group-btn">
-                <button type="submit" class="btn btn-danger"> 
-                <span class="glyphicon glyphicon-envelope"></span>&nbsp;Subscribe</button>
-              </div>
-            </div>
-        </form><span id="msg"></span>
-    </div>
-    <div class="col-xs-3">     
-    </div>
-  </div>  
+  
+  <img src="images/banner.png" style="width:100%">
+ 
+  <div class="col-xs-6">
+    <form name="submit-to-google-sheet">
+        <div class="input-group">
+          <input type="email" name="Email" class="form-control" size="50" placeholder="Email Address" required>
+          <div class="input-group-btn">
+            <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Subscribe</button>
+          </div>
+        </div>
+    </form>
+    <span id="msg"></span>
 
 </div>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<div id="about" class="container-fluid"><br />
   <div class="row">
-    <div class="col-sm-8">
-      <a href="https://docs.google.com/spreadsheets/d/1tX7hjrLZTtq1nMTLf4x-ui_OWfIqoPiFfByZVCJy0bs/edit#gid=0" target="blank">
-        <h2>My Gant Char Solution</h2> </a><br>
-        <h4><a href="/download/XXXXX_Project Management_Assessment 1.docx" download>Download My Assessment One</a>         
-        || <a href="/download/XXXXX_Project Management_Assessment 2.docx" download>Download My Assessment Two</a></h4>
-        <img src="images/frame.png" alt="scan by your phone" style="float: left; margin-top: -26px;" id="hideme" />  
-        <p>The wells college asked me to make the promotion video.  So I made the plan and started recently.  Here is my ganttchar link URL.</p>
-        <a href="https://docs.google.com/spreadsheets/d/1tX7hjrLZTtq1nMTLf4x-ui_OWfIqoPiFfByZVCJy0bs/edit#gid=0" target="blank">
-          <h4>Click to view My Gant Char Solution</h4> </a><br>
+    <div class="col-sm-8">   
+      <h2>Project Management Support</h2>
+      <ul>
+        <li>
+            <a href="https://docs.google.com/spreadsheets/d/1tX7hjrLZTtq1nMTLf4x-ui_OWfIqoPiFfByZVCJy0bs/edit?usp=drive_web&ouid=113306220356913472008" target="blank">
+            View My GantChar</a>&nbsp;||&nbsp;
+            <a href="/download/XXXXX_Project Management_Assessment 1.docx" download>Download My Assessment One</a>&nbsp;||&nbsp;         
+            <a href="/download/XXXXX_Project Management_Assessment 2.docx" download>Download My Assessment Two</a>&nbsp;||&nbsp;
+            <a href="CreatPomotionVideo-chart.html">Video Promotion Site</a>&nbsp;||&nbsp;
+            <a href="CreatPomotionVideo.html">Heaven Green System</a>&nbsp;||&nbsp;
+            <a href="https://docs.google.com/spreadsheets/d/1lEPCDzBXDr2648Btqutu0yC7_oVQMnNW137mqjbkEFQ/edit#gid=1173856992" target="_blank">View Subscribe Details</a>  
+          &nbsp;||&nbsp;
+          <a href="https://docs.google.com/spreadsheets/d/1lEPCDzBXDr2648Btqutu0yC7_oVQMnNW137mqjbkEFQ/edit#gid=1770800172" target="_blank">View Contact Details</a>  
+        </li>
+      </ul>
+      <ul>
+        <img src="images/frame3.png" alt="scan by your phone" style="float: left; margin-top: -26px;" id="hideme" />  
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      </ul>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
+    <div class="col-sm-4">    
+      <span class="glyphicon glyphicon-signal logo"></span><br />
+       <!-- <a href="#link" class="btn btn-info" role="button">Link Button</a> -->
+       <br><a href="https://forms.gle/ymQvsjmGSew8es3u6" target="blank" class="btn btn-info btn-lg">
+        Fill the Feedback Form &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></a><br />
+      <br><a href="https://docs.google.com/spreadsheets/d/1RDLfwvcBUFqlXlCkB9VUHoqn-nLuQzE3Hp8En_djDhk/edit?usp=sharing" class="btn btn-info btn-lg">
+        View the Feedback Result</button></a><br>
+      <!-- https://docs.google.com/spreadsheets/d/1RDLfwvcBUFqlXlCkB9VUHoqn-nLuQzE3Hp8En_djDhk/edit?usp=sharing for result share-->
+      <!-- https://forms.gle/ymQvsjmGSew8es3u6 for feedback form-->
+      <br><a href="https://forms.gle/hZ7SWQUT49wGbdWo6" target="blank" class="btn btn-primary btn-lg">
+       Fill the Feedback Form 2&nbsp;&nbsp;&nbsp;&nbsp;</button></a><br /><br />
+       <button class="btn btn-danger btn-lg">Test This</button>
+
+
+
+      <!-- https://forms.gle/hZ7SWQUT49wGbdWo6 for feedback form-->
     </div>
   </div>
 </div>
@@ -97,95 +124,290 @@
   </div>
 </div>
 
+<!-- Container (Business Hour Section) -->
+<div id="businesshour" class="container-fluid">
+    
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>We have to know 10 things before woking ICT business</h2><br>
+        <table class="table table-bordered table-hover table-striped">
+            <thead>
+              <tr style="background-color: #877a45; color: white;">
+                <th>Good for ICT</th>
+                <th>Hard for ICT</th>
+                <th>Comments</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Good Salaries</td>     <td>...</td>    <td>Start 60000 Up to 200000</td>   </tr>
+              <tr><td>Working Remote</td>    <td>...</td>    <td>Work at home, Save time on the way</td>   </tr>
+              <tr><td>...</td>  <td>...</td>   <td>...</td>   </tr>
+              <tr><td>...</td>  <td>...</td>   <td>...</td>   </tr>
+              <tr><td>...</td>  <td>...</td>   <td>...</td>   </tr>
+              <tr><td>...</td>  <td>Long time to work</td>    <td>In order to solve problems</td>   </tr>
+              <tr><td>...</td>  <td>Change so quick</td>      <td>Keep to learn your whole life</td>   </tr>
+              <tr><td>...</td>  <td>Prepare for change</td>   <td>Some is too hard to keep going</td>   </tr>
+             
+            </tbody>
+        </table>
+        <br><a href="https://www.youtube.com/watch?v=2WB6RcY0MPc" target="_blank"><button class="btn btn-primary btn-lg">Reference Site</button></a>
+      </div>  
+      <div class="col-sm-4">
+            <span class="glyphicon glyphicon-home logo"></span><br><br><br><br>
+           
+      </div>
+     
+      
+    </div>
+  </div>
+
+<!-- Container (Security Section) -->
+<div id="security" class="container-fluid text-center"> 
+   <img src="images/OIP.jpg" class="w3-image w3-greyscale-min" id="hideme" style="width:20%; float:right;">
+    <h2>Cybersecurity</h2>
+    <p>
+      Referred to as information security, cybersecurity refers to the practice of ensuring the integrity, confidentiality, 
+      and availability (ICA) of information. Cybersecurity is comprised of an evolving set of tools, risk management approaches, 
+      technologies, training, and best practices designed to protect networks, devices, programs, and data from attacks or unauthorized access.
+      <br /><br /><br /><br />
+    </p>
+</div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Why is cybersecurity important</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Common types of cybersecurity</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Type of Malware</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body"> 
+            <ul style="float: left;">
+              <li>Virus</li>
+              <li>Worms</li>
+              <li>Spyware</li>
+              <li>Trojans</li>
+            </ul> 
+            
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Ransomware</a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse">
+          <div class="panel-body"> 
+            <p>
+              Also known as scareware, ransomware comes with a heavy price. 
+              Able to lockdown networks and lock out users until a ransom is paid, 
+              ransomware has targeted some of the biggest organizations in the world today — with expensive results.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div> 
+  
+</div>
+
+<div id="taskthree" class="container-fluid text-center"> 
+   
+  <img src="data:image/jpeg;base64,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" class="w3-image w3-greyscale-min" id="myimg2" style="width:20%; float:right;">
+  <h2>Develop Support Procedures Task Three</h2>
+  
+  <p style="text-align: left;">
+    As technology progresses, more and more of our information has been moving to the digital world. 
+    As a result, cyberattacks have become increasingly common and costly.
+    We’ve created a 7-step checklist to use in the case of a data breach. Depending on the severity of the breach and the information exposed, 
+    you’ll need to apply some or all of these steps to varying degree.  <b>Seven Step Checklist</b>
+  </p> 
+  <p style="text-align: left;">
+    Policies and procedures are step by step instructions to guide employees on the organisations viewpoints. 
+    Policies and procedures are designed to influence and determine all major decisions, actions and all activities 
+    take place within the boundaries set by them
+  </p>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Positive or Negative experience when seeking assistance</a></li>
+    <li><a data-toggle="tab" href="#menu1">Support aspects you have to know</a></li>
+    <li><a data-toggle="tab" href="#menu2">Using feedback form by Google sheet to get data</a></li>
+ 
+  </ul>
+  <div class="tab-content" style="background-color: #eee; padding: 40px; height: 300px;">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Positive or Negative experience when seeking assistance</h3>
+      <p><b>1. Confirm the breach and if your information was exposed.</b>
+        The first step is to confirm that a breach actually occurred. 
+        When a data breach occurs, scammers may reach out to you posing as the breached company to try to obtain more of your personal information. Don't fall for fake emails. Go to the company's secure website and/or 
+        call the company to confirm the breach and whether your information was involved.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Support aspects you have to know </h3>
+      <p><b>2. Find out what type of data was stolen.</b>
+        Why does the type of information exposed matter? 
+        While stolen credit cards and the like can be cancelled and replaced, it's quite difficult to obtain a new Social Security number. And fraudsters can do a lot more with your SSN and other unique, 
+        sensitive PII than they can accomplish with an email or credit card account.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Using feedback form by Google sheet to get data</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      <br><a href="https://forms.gle/ymQvsjmGSew8es3u6" target="blank" class="btn btn-default btn-lg">
+        Fill the Feedback Form &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></a><br />
+      <br><a href="https://docs.google.com/spreadsheets/d/1RDLfwvcBUFqlXlCkB9VUHoqn-nLuQzE3Hp8En_djDhk/edit?usp=sharing" class="btn btn-default btn-lg">
+        View the Feedback Result</button></a><br>     
+    </div> 
+  </div>
+</div>
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h2 id="hidemeonmobile">Hardware and Software</h2>
+  <h4 id="hidemeonmobile">Daily Using Hardware and Software in the Company</h4>
   <br>
   <div class="row slideanim">
-    <div class="col-sm-4">
+    <div class="col-sm-4" style="background-color:#eee; padding: 35px 20px;">
       <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <h4>WINDOW SERVER</h4>
+      <p>We have one powerful server to server all the software.</p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-4" style="background-color:lightyellow; padding: 35px 20px;">
+      <span class="glyphicon glyphicon-hdd logo-small"></span>
+      <h4>WINDOW OPERATING SYSTEM</h4>
+      <p>We have eight computers to network and manage the business daily</p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-4" style="background-color:#eee; padding: 35px 20px;">
+      <span class="glyphicon glyphicon-print logo-small"></span>
+      <h4>SQL DATABASE</h4>
+      <p>All data store in the SQL database also link the Printer for hardcopy.</p>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
+      <h4>TELEPHONE</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
+      <h4>MODERN</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
+      <h4 style="color:#303030;">NETWORK</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
 </div>
 
+
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
+  <h2>EVALUATE AND COMMUNICATE BUSINESS REQUIREMENT</h2><hr>
   <h4>What we have created</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="images/paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
+        <img src="https://www.guru99.com/images/1/102419_0454_WhatisBusin1.png" 
+        alt="Benefits" width="400" height="300"><br /><br />
+        <p><strong>Athics</strong></p>
+        <p>Here is the benifets diagram.</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="images/newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
+        <img src="https://www.guru99.com/images/1/102419_0454_WhatisBusin1.png" 
+        alt="Components" width="400" height="300"><br /><br />
+        <p><strong>Privacy</strong></p>   
+        <p>Not only your business</p>     
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="images/sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
+        <img src="https://www.guru99.com/images/1/102419_0454_WhatisBusin1.png" 
+        alt="Home Connect" width="400" height="300"><br /><br />
+        <p><strong>Protection</strong></p>
+        <p>Not only your business</p>
       </div>
     </div>
   </div><br>
   
-  <h2>What our customers say</h2>
+  <h2><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp; Data Communication &nbsp;&nbsp;<span class="glyphicon glyphicon-user"></span></h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        <center>
+        <img src="https://www.researchgate.net/profile/Orpaz-Goldstein/publication/322059899/figure/fig2/AS:626281448239105@1526328541080/Data-communication-diagram-of-the-system.png" 
+        alt="Benefits" width="800" height="400">
+        </center>
+        <div class="carousel-caption" style="color:red">
+          <p>"A: This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></p>
+          <br /><br /><br />   <br /><br /><br />  
+        </div>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+        <center>
+        <img src="https://kintronics.com/wp-content/uploads/2021/01/IP-Apartment-Intercom-Diagram3.png" 
+        alt="Benefits" width="800" height="400">
+        </center>
+        <div class="carousel-caption" style="color:red">
+          <p>"B: This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></p>
+          <br /><br /><br />   <br /><br /><br />  
+        </div>
       </div>
       <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        <center>
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211018204909/communication.jpg" 
+        alt="Benefits" width="800" height="400">
+        </center>
+        <div class="carousel-caption" style="color:red">
+          <p>"C: This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></p>
+          <br /><br /><br />   <br /><br /><br />  
+        </div>
+      </div>
+      <div class="item">
+        <center>
+        <img src="https://images.slideplayer.com/24/6972445/slides/slide_9.jpg" 
+        alt="Benefits" width="800" height="400">
+        </center>
+        <div class="carousel-caption" style="color:red">
+          <p>"D: This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></p>
+          <br /><br /><br />   <br /><br /><br />  
+        </div>
       </div>
     </div>
 
@@ -201,71 +423,190 @@
   </div>
 </div>
 
-<!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
+<!-- Container ( Requirements Document Section) -->
+<div id="document" class="container-fluid">
   <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
+    <h2>The structure for a requirements document</h2>
+    <h4>IEEE standard is not ideal, it contains a great deal of good advice on how to
+      write requirements and how to avoid problems. But it can be tailored and adapted to define a standard
+      which is geared to the needs of a particular organisation.</h4>
   </div>
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Basic</h1>
+          <h1>Preface</h1>
         </div>
         <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <img src="https://www.altexsoft.com/media/2018/05/diagram.png" style="height: 198px;"
+          class="img-size img-thumbnail" alt="cute cat" class="img-thumbnail" />
         </div>
         <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <h3>Requirment Defination</h3>
+          <h4>Help you lost your any infomation. it is your first step to protect by yourself on the cyberattacks</h4>
+          <a href="https://www.youtube.com/watch?v=agnDpN961xU" target="_blank"><button class="btn btn-primary btn-lg"> 
+          Refer</button></a>
         </div>
       </div>      
     </div>     
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Pro</h1>
+          <h1>Introduction</h1>
         </div>
         <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <img src="https://images.edrawsoft.com/articles/system-architecture-diagram/system-architecture-design.png"
+          class="img-size img-thumbnail" alt="cute cat" class="img-thumbnail" style="height: 198px;" />
         </div>
         <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <h3>Architecture</h3>
+          <h4>Using complicate combination word and number with special charcters to made your password</h4>
+          <button class="btn btn-lg">Refer</button>
         </div>
       </div>      
     </div>       
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Premium</h1>
+          <h1>Glossary</h1>
         </div>
         <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
+        <img src="https://clikcloud.com/wp-content/uploads/2015/06/data-breach.jpg"
+        class="img-size img-thumbnail" alt="cute cat" class="img-thumbnail" style="height:198px;" />
+      </div>
         <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <h3>Require
+            specification</h3>
+          <h4>Set password input hash using sha256 in the werkzeug librar. So no one could find... More could be define </h4>
+          <button class="btn btn-lg">Refer</button>
         </div>
       </div>      
     </div>    
   </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>User requirements</h1>
+        </div>
+        <div class="panel-body">
+          <img src="https://www.altexsoft.com/media/2018/05/diagram.png" style="height: 198px;"
+          class="img-size img-thumbnail" alt="cute cat" class="img-thumbnail" />
+        </div>
+        <div class="panel-footer">
+          <h3>Requirment Defination</h3>
+          <h4>Help you lost your any infomation. it is your first step to protect by yourself on the cyberattacks</h4>
+          <a href="https://www.youtube.com/watch?v=agnDpN961xU" target="_blank"><button class="btn btn-primary btn-lg"> 
+          Refer</button></a>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1> Architecture</h1>
+        </div>
+        <div class="panel-body">
+          <img src="https://images.edrawsoft.com/articles/system-architecture-diagram/system-architecture-design.png"
+          class="img-size img-thumbnail" alt="cute cat" class="img-thumbnail" style="height: 198px;" />
+        </div>
+        <div class="panel-footer">
+          <h3>Architecture</h3>
+          <h4>Using complicate combination word and number with special charcters to made your password</h4>
+          <button class="btn btn-lg">Refer</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Specification</h1>
+        </div>
+        <div class="panel-body">
+        <img src="https://clikcloud.com/wp-content/uploads/2015/06/data-breach.jpg" style="height:198px;"
+        class="img-size img-thumbnail" alt="cute cat" class="img-thumbnail" />
+      </div>
+        <div class="panel-footer">
+          <h3>Require
+            specification</h3>
+          <h4>Set password input hash using sha256 in the werkzeug librar. So no one could find... Could be doing more </h4>
+          <button class="btn btn-lg">Refer</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+<!-- Container (Business Case Section) -->
+<div id="businesscase" class="container-fluid text-center">    
+  <img src="https://assets.brightspot.abebooks.a2z.com/dims4/default/dda3895/2147483647/strip/true/crop/815x505+0+0/resize/800x496!/format/jpg/quality/90/?url=http%3A%2F%2Fabebooks-brightspot.s3.amazonaws.com%2Faf%2F82%2F3c984e7042f1a18a58ffd150d44c%2Fpeter-harrington.jpg" class="w3-image w3-greyscale-min" id="myimg2" style="width:20%; float:right;">
+  <h2>Business Scenario</h2>
+  <p style="text-align: left;">
+  D&K Books Pty Ltd is a bookstore owned by Mr. Dean Kerr. The business occupies two levels of an office building connected by escalators and lifts. 
+  D&K Books employs approximately six sales staff, one operation manager, two administrative officers, a bookkeeper and a marketing manager. 
+  They have an Ethernet network consisting of ten PCs (Intel I3 Desktop cloned), two switches, a router and three printers. 
+  They use the QuickBooks software to manage their entire business, including sales, inventory, ordering, accounts receivable, accounts payable, 
+  payroll and employee management. They also have two EFTPOS terminals one on each floor.
+  </p>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Data Communication Digram in the Book Shop</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+          <img src="images/system.png" alt="Data Control Diagram" />
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Hardware and Software Setting</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body"> <center>
+          <table border="1" style="width: 60%;">
+            <tr style="background-color:pink; color:blue">
+            <th>&nbsp;&nbsp;Hard ware</th><th>&nbsp;&nbsp;Software ware</th>
+            </tr>
+            <tr> <td>Server X 1</td> <td>Window Server</td> </tr>
+            <tr> <td>Computer X 8</td> <td>Windows</td> </tr>
+            <tr> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
+            <tr> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
+            <tr> <td>&nbsp;</td> <td>...</td> </tr>
+          </table>
+        </center>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Business Support Area</a>
+        </h4>
+      </div>
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body"> 
+          <div class="row">
+            <div class="col-sm-4">
+              <ul><li>Quick Books Software preinstall</li>
+              <li>Computer Server with window operating system</li></ul>
+            </div>
+            <div class="col-sm-4"><ul>
+              <li>EFTPOS Machine for small business</li>
+              <li>Telephone System with auto link</li></ul>
+            </div>
+            <div class="col-sm-4"><ul>
+              <li>Website with online database</li>
+              <li>Network System with Window Server</li></ul>
+            </div>
+          </div>           
+        </div>
+      </div>
+    </div>
+  </div> 
 </div>
 
 <!-- Container (Contact Section) -->
@@ -274,40 +615,87 @@
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Sydney, Australia</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 0451-541-568</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> nguyennhutthanh89@gmail.com</p>
     </div>
     <div class="col-sm-7 slideanim">
+      <form name="contact-to-google-sheet">
       <div class="row">
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          <input class="form-control" id="name" name="Name" placeholder="Name" type="text" required>
         </div>
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          <input class="form-control" id="email" name="Email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="Comment" placeholder="Comment" rows="5"></textarea><br>
       <div class="row">
+        <div class="col-sm-6 form-group">
+          <select name="Continent">
+            <option>Africa</option>
+            <option>Asia</option>
+            <option>Australia</option>
+            <option>North America</option>
+            <option>South America</option>
+          </select>  
+          </div>
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
         </div>
       </div>
+    </form>
+    <span id="msg2"></span>
     </div>
   </div>
 </div>
 
 <!-- Image of location/map -->
-<img src="images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<img src="images/map.jpg" class="w3-image w3-greyscale-min" id="myimg" style="width:100%">
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+  <p>This site powered By <a href="https://wic.nsw.edu.au/" title="Visit Our College" target="blank">wic.nsw.edu.au/</a></p>
+  <p>Powered by 12345 Huynbin</p>
 </footer>
+</body>
 <!-- Load external JavaScript -->
 <script src="scripts.js"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzp7BqbD0JzQ-jTldcyZHslE8Kp7UEywJrhPSiRwmsaf-w5ukF06vHvhA1ISluG-GqgxQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
 
-</body>
+  const scriptURL2 = 'https://script.google.com/macros/s/AKfycbzp55Y3025RgWs4z5eeOo8tPRW6QoKTIWZpKyF3nIDInojqyFWvVuPGPb7ZmRhUDC2u/exec'
+  const form2 = document.forms['contact-to-google-sheet']
+  const msg2 = document.getElementById("msg2")
+
+  form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => {
+  msg.innerHTML = "Thank you For Subscribing!"
+  setTimeout(function(){
+  msg.innerHTML = ""
+  }, 5000)
+  form.reset()
+  })
+  .catch(error => console.error('Error!', error.message))
+  })
+  
+  form2.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+      .then(response => {
+          msg2.innerHTML = "Thanks for your contact details by Thanh"
+          setTimeout(function(){
+              msg2.innerHTML = "Contact"
+          }, 5000)
+          form2.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+  </script>
 </html>
