@@ -217,6 +217,13 @@ footer .glyphicon {
   margin-left: 100px;
   margin-top:10px;
 }
+iframe{
+  width: 90%;
+  height: 600px;
+}
+.media-body{
+text-align: center;
+}
 .dropdown-menu {
   background-color: #031F34;
   }
